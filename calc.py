@@ -6,5 +6,7 @@ def calc(a, b):
 calc(5, 7)
 
 print("Hello world!")
-c = [1,2,3,4,5]
-print(c)
+c = [1, 2 ,3, 4, 5]
+digits = ["1", "2" ,"3", "4", "5"]
+for i in range(len(digits)):
+    print(digits[i])
