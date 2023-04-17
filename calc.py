@@ -4,3 +4,7 @@ def calc(a, b):
     print('x =', x)
     print('y =', y)
 calc(5, 7)
+
+print("Hello world!")
+c = [1,2,3,4,5]
+print(c)
