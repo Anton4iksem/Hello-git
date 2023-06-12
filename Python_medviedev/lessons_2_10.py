@@ -62,7 +62,7 @@ def lesson_8():  # преобразование типов
     d = str(5) + "6"  # str строка
     print(d)
 
-# lesson_8()
+#lesson_8()
 
 
 def lesson_9():  # boolean логический тип ланных
@@ -89,4 +89,4 @@ def lesson_10():  # операторы сравнения
     e = 'e' > 'E'
     print(d, e)
 
-#lesson_10()
+# lesson_10()
