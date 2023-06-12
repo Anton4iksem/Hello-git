@@ -89,4 +89,4 @@ def lesson_10():  # операторы сравнения
     e = 'e' > 'E'
     print(d, e)
 
-# lesson_10()
+lesson_10()
