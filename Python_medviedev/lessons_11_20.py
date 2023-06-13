@@ -119,7 +119,7 @@ def lesson_16():  # Списки (list)
     list1[0] = 'f'
     print(list1)
 
-    list1.append('a')
+    list1.append('a')  # append добавляет элемент в конец списка
     print(list1)
 
     list2 = ['1', '2', '3']
@@ -133,7 +133,7 @@ def lesson_16():  # Списки (list)
 
 def lesson_17():  # Цикл for in
     list = ['a', 'b', 'c', 'd']
-    for i in list:
+    for i in list:  # in - длина?
         if i == 'b':
             print('bb')
             break
@@ -142,11 +142,56 @@ def lesson_17():  # Цикл for in
 # lesson_17()
 
 
-def lesson_17(): # Функция range
+def lesson_18():  # Функция range
     import random
-    a = list(range(10))
+    f = int(input("Chislo elementov spiska: "))
+    a = list(range(f))
     print(a)
 
     b = list(range(random.randint(1, 10)))
     print(b)
-lesson_17()
+
+    for i in range(len(a)):
+        a[i] = random.randint(1, 9)
+    print(a)
+
+    c = list(range(5, 10, 2))  # 5 - начало диапазона, 10 - конец, 2 - шаг
+    print(c)
+
+
+# lesson_18()
+
+
+def lesson_18_example():
+    list = ['a', 'b', 'c', 'd']
+    for i in range(len(list)):
+        # print(i)
+        # print(list[i])
+        if list[i] == 'd':
+            list[i] = 'e'
+        print(list[i])
+
+
+# lesson_18_example()
+
+
+def lesson_19():  # Списковые выражения(генератор списков)
+    import random
+    list1 = []
+    for i in range(8):
+        list1.append(i)
+    print(list1)
+
+    # a = random.randint(0, 10)
+    list2 = [i for i in range(8)]
+    print(list2)
+
+
+# lesson_19()
+
+def lesson_20():  # Списковые выражения с условием
+    list1 = [i for i in range(8) if i % 2 == 0]
+    print(list1)
+
+
+lesson_20()
