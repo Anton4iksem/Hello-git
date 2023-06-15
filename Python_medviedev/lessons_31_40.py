@@ -164,3 +164,112 @@ def lesson_35(): # Сортировка списков
     print(list2)
 
 # lesson_35()  
+
+def lesson_36(): #  Словари (dict)
+    person = {}
+    print(person)
+    person = {'first name':'Jack', 'last name':'White'}
+    print(person)
+    print(len(person))
+    print(person['first name'])
+    person['first name'] = 'Bob'
+    print(person)
+    person['age'] = 25
+    print(person)
+
+# lesson_36()
+
+def lesson_37(): # Кортежи (tuple)
+    person = ()
+    print(person)
+    person = ('Anton', )
+    print(person)
+    person = ('Anton', 'Gogo')
+    print(person)
+    
+# lesson_37()
+
+def lesson_38(): #Перебор словарей
+    person = {'first name':'Jack', 'last name':'White', 'age':25}
+    for i in person:
+        print(i)
+        print(person[i])
+
+    print(person.items())
+    for i in person.items():
+        print(i)
+
+    for i, j in person.items():
+        print(i, j)
+
+    print(person.keys())
+
+    for i in person.keys():
+        print(i)
+    
+    print(person.values())
+    
+    for i in person.values():
+        print(i)
+
+
+# lesson_38()
+
+def lesson_39(): # Методы работы со словарями
+    person = {}
+    person.fromkeys(('first name', 'last name'))
+    print(person)
+    
+    person = person.fromkeys(('first name', 'last name'))
+    print(person)
+
+    person = person.fromkeys(('first name', 'last name'), 'kva kva')
+    print(person)
+
+    print(person.get('first name'))
+    print(person['first name'])
+
+    # print(person['age'])
+    print(person.get('age'))
+    print(person.get('age', 'Danone'))
+
+    print(person.pop('first name'))
+    print(person)
+
+    print(person.pop('age', 25))
+
+    print(person.popitem())
+    print(person)
+    # person.popitem()
+
+    person.setdefault('first name')
+    print(person.setdefault('first name'))
+    print(person)
+
+    person.setdefault('last name', 'Boba')
+    print(person.setdefault('last name', 'Boba'))
+    print(person)
+
+    person.update({'age':25, 'sex':'m'})
+    print(person)
+
+    person1 = person.copy()
+    print(person1)
+
+    person1.clear()
+    print(person1)
+
+# lesson_39()
+
+def lesson_40(): # Множества set и frozenset
+    list1 = set()
+    print(list1)
+    list1 = {'a', 'b', 'c', 'a', 'b'}
+    print(list1)
+
+    list2 = frozenset()
+    print(list2)
+    list2 = {'a', 'b', 'c', 'a', 'b'}
+    print(list2)
+    
+# lesson_40()
