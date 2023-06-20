@@ -272,4 +272,4 @@ def lesson_40(): # Множества set и frozenset
     list2 = {'a', 'b', 'c', 'a', 'b'}
     print(list2)
     
-# lesson_40()
+lesson_40()
