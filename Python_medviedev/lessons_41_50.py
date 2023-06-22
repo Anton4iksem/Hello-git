@@ -107,6 +107,7 @@ def lesson_42(): # Методы работы со множеством set, к f
 
     b.clear() # удаляет все элементы из множества
     print(b)
+    print('Hello new laptops!')
 
 
 lesson_42()
