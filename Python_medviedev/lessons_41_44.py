@@ -110,4 +110,17 @@ def lesson_42(): # Методы работы со множеством set, к f
     print('Hello new laptops!')
 
 
-lesson_42()
+# lesson_42()
+
+def lesson_43(): # модули
+    import random as rnd # as псевдоним, потом нужно будет использовать псевдоним
+    # from random import choice, randint # импорт отдельных функций из модуля
+    list1 = ['a', 'b', 'c']
+    print(rnd.choice(list1)) # рандомно выбирает число из списка
+    
+
+
+# lesson_43()
+
+import new_module # файл из которого импортируем модуль должен быьт в одной дирректории где и этот
+new_module.lesson__44()
