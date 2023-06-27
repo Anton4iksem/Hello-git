@@ -15,7 +15,6 @@ def lesson_31(): # Методы работы со строками (создаю
 
     list1 = string.split(' ')
     print(list1)
-
     print(string.upper())
     print(string.lower())
     print(string.capitalize())
@@ -272,4 +271,4 @@ def lesson_40(): # Множества set и frozenset
     list2 = {'a', 'b', 'c', 'a', 'b'}
     print(list2)
     
-lesson_40()
+# lesson_40()

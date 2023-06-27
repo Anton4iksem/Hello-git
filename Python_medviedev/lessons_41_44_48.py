@@ -124,3 +124,8 @@ def lesson_43(): # модули
 
 import new_module # файл из которого импортируем модуль должен быьт в одной дирректории где и этот
 new_module.lesson__44()
+
+def lesson_48(): #  Исключения
+    print(int('10'))
+    
+lesson_48()
