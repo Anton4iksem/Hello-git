@@ -1,9 +1,9 @@
-def calc(a, b):
+def calcc(a, b):
     x = a + b
     y = b - a
     print('x =', x)
     print('y =', y)
-calc(5, 7)
+calcc(5, 7)
 
 print("Hello world!")
 c = [1, 2 ,3, 4, 5]

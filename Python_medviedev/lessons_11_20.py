@@ -159,7 +159,7 @@ def lesson_18():  # Функция range
     print(c)
 
 
-# lesson_18()
+lesson_18()
 
 
 def lesson_18_example():
@@ -194,4 +194,4 @@ def lesson_20():  # Списковые выражения с условием
     print(list1)
 
 
-lesson_20()
+# lesson_20()
