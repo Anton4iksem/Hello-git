@@ -18,13 +18,13 @@ def fill_and_sort():
 
     
 def max_values():
-    max_value = float('-inf') # начальное значение максимального числа, задаем отрицательную бесконечность
+    max_value = float('-inf') 
     for i in list1:
         if i > max_value:
-            max_numbers = [i] # найдено новое максимальное число
+            max_numbers = [i] 
             max_value = i
         elif i == max_value:
-            max_numbers.append(max_value) # найдено еще одно максимальное число
+            max_numbers.append(max_value) 
     print(max_numbers)
 
 
